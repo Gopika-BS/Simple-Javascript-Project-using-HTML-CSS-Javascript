@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching Items</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <section class="container">
+        <form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="search-item" placeholder="search products" onkeyup="search()">
+        </form>
+        <div class="products-list" id="products-list">
+            <div class="product">
+                <img src="./image/beau-1.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Beauty Products</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/beau-2.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Beauty Products</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/beau-3.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Beauty Products</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/beau-4.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Beauty Products</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/beau-5.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Beauty Products</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/beau-6.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Beauty Products</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/toy-1.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Toys For Kids</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/./toy-2.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Toys For Kids</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/./toy-3.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Toys For Kids</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/./toy-4.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Toys For Kids</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/toy-5.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Toys For Kids</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-6.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Toys For Kids</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/hud-1.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Hoodies For Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/hud-2.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Hoodies For Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image//hud-3.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Hoodies For Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/hud-4jpg.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Hoodies For Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/hud-5.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Hoodies For Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/hud-6.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Hoodies For Everyone</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-1.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Designed Plates</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-2.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Designed Plates</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-3.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Designed Plates</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-4.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Designed Plates</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-5.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Designed Plates</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/plates-6.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Designed Plates</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/watch-1.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Branded Watch</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/watch-2.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Branded Watch</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/watch-3.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Branded Watch</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/watch-4.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Branded Watch</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/watch-5.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Branded Watch</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./image/watch-6.jpg" alt="">
+                <div class="p-dess">
+                    <h2>Branded Watch</h2>
+                    <h3>$25</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
